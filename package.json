@@ -1,0 +1,23 @@
+{
+  "name": "graphy",
+  "version": "0.0.1",
+  "description": "Minimalistic framework for GraphQL.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knightshq/graphy.git"
+  },
+  "keywords": [
+    "graphql",
+    "js"
+  ],
+  "author": "knightshq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/knightshq/graphy/issues"
+  },
+  "homepage": "https://github.com/knightshq/graphy#readme"
+}
