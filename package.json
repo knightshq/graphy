@@ -4,8 +4,8 @@
   "description": "Minimalistic framework for GraphQL.js",
   "main": "index.js",
   "scripts": {
-    "build": "babel lib -d dist",
-    "test": "mocha"
+    "build:dev": "babel lib -d dist",
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -22,9 +22,17 @@
   },
   "homepage": "https://github.com/knightshq/graphy#readme",
   "devDependencies": {
+    "ava": "^0.17.0",
     "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
     "babel-preset-es2015": "^6.18.0",
+    "babel-preset-es2017": "^6.16.0",
     "babel-preset-react": "^6.16.0",
-    "babel-preset-stage-2": "^6.18.0"
+    "babel-preset-stage-2": "^6.18.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-watch": "^4.3.11"
   }
 }
