@@ -34,5 +34,9 @@
     "gulp-babel": "^6.1.2",
     "gulp-nodemon": "^2.2.1",
     "gulp-watch": "^4.3.11"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "graphql": "^0.8.2"
   }
 }
